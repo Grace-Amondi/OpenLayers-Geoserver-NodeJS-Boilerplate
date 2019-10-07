@@ -6,6 +6,7 @@ This is a boilerplate template for OpenLayers-Geoserver-NodeJS stack for creatin
 ```` git clone https://github.com/Grace-Amondi/OpenLayers-Geoserver-NodeJS-Boilerplate.git````
 
 #### Install modules
+Run the following command
 
 ````npm install````
 
