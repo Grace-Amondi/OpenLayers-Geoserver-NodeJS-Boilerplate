@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The water app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- sticky header -->
+    <div class="sticky-header">
+        <header class="masthead">
+            <h1 class="header-logo" style="font-size: 20px">
+                <a href="#">
+                    <h2>THE WATER APP</h2>
+                </a>
+            </h1>
+        </header>
+        <div class="menu-container">
+            <!-- <div class="menu-scroll"> -->
+            <nav id="menu-nav" class="menu-nav">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Data</a></li>
+                </ul>
+
+            </nav>
+            <!-- </div> -->
+            <button id="menu-button" class="menu-button"><span class="menu-button-icon icon-menu"></span> Menu</button>
+        </div>
+    </div>
+    <!-- sticky header ends here -->
+
+    <!-- main content -->
+    <main class="main-container" role="main">
+
+        <!-- map -->
+        <div id="map" class="map"></div>
+        <div id="popup" class="ol-popup">
+            <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+            <div id="popup-content"></div>
+        </div>
+        <article id="story1">
+            <div id="pie"></div>
+            <div id="bar"></div>
+        </article>
+        <article class="story">
+            <!-- legend -->
+            <div id="legend" class="legend legend-mobile">
+                <h4>Current reservoir status (percent full)</h4>
+                <span class="marker-cat1"></span>
+                <span class="marker-cat2"></span>
+                <span class="marker-cat3"></span>
+                <span class="marker-cat4"></span>
+                <span class="marker-cat5"></span>
+                <ul>
+                    <li>0-20%</li>
+                    <li>40%</li>
+                    <li>60%</li>
+                    <li>80%</li>
+                    <li>100%</li>
+                </ul>
+            </div>
+            <!-- legend ends here -->
+
+            <!-- side bar content -->
+            <header class="header">
+                <h1>The Water App</h1>
+                <!-- <p class="credit">By <a href="https://www.texastribune.org/about/staff/ryan-murphy/">Ryan Murphy</a></p> -->
+            </header>
+            <div class="prose">
+                <div id="info">&nbsp;</div>
+                <div id="sidebar"></div>
+                <div id="reservoir-list" class="reservoir-list"></div>
+
+            </div>
+
+            <footer class="footer">
+                <nav>
+                    <ul>
+                        <li class="copywrite">&copy; 2019 <a href="#">The Water App</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="last-nav">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </footer>
+            <!-- side bar content ends here -->
+
+        </article>
+
+        <!-- legend -->
+        <div id="legend" class="legend legend-desktop">
+            <h4>Current reservoir status (percent full)</h4>
+            <span class="marker-cat1"></span>
+            <span class="marker-cat2"></span>
+            <span class="marker-cat3"></span>
+            <span class="marker-cat4"></span>
+            <span class="marker-cat5"></span>
+            <ul>
+                <li>0-20%</li>
+                <li>40%</li>
+                <li>60%</li>
+                <li>80%</li>
+                <li>100%</li>
+            </ul>
+        </div>
+        <!-- legend ends here -->
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
