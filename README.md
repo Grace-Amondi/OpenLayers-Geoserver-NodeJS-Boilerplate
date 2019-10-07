@@ -60,6 +60,8 @@ var vectorPoints = new VectorLayer({
 
 ```npm start```
 
+Open `http://localhost:1234`
+
 
 #### Build
 
