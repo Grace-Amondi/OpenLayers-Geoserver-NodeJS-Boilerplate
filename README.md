@@ -67,4 +67,4 @@ Open `http://localhost:1234`
 
 ```npm run build```
 
-Open `index.html` in browser
+Open `dist/index.html` in browser
