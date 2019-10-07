@@ -1,7 +1,7 @@
 # OpenLayers-Geoserver-NodeJS-Boilerplate
 This is a boilerplate template for OpenLayers-Geoserver-NodeJS stack for creating web map applications with openlayers and geoserver.
 
-#### Clone repo
+#### Clone repo or just Download if you don't have git installed
 
 ```` git clone https://github.com/Grace-Amondi/OpenLayers-Geoserver-NodeJS-Boilerplate.git````
 
@@ -9,7 +9,9 @@ This is a boilerplate template for OpenLayers-Geoserver-NodeJS stack for creatin
 
 ````npm install````
 
-# Customizations to code
+## Customizations to code
+Replace the following in index.js with your own credentials
+
 
 ```
 var featureRequest = new WFS().writeGetFeature({
@@ -54,7 +56,6 @@ var vectorPoints = new VectorLayer({
 })
 ```
 
-Replace the following in index.js with your own credentials
 #### For development
 
 ```npm start```
